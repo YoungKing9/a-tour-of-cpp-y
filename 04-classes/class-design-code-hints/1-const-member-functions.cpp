@@ -15,7 +15,7 @@ public:
     Point(int xin, int yin) : x_{xin}, y_{yin} {}
     
     // 'elegant' setters
-    void x(int xin) { x_ = xin; }
+    void x(int xin) { x_ = xin; }   // 这个是函数变形了，看着好像挺吓人的
     void y(int yin) { y_ = yin; }
     
     // 'elegant' getters
@@ -51,7 +51,7 @@ void foo(const Point& p) {
 
 
 int main() {
-    cout << "P\n";
+    cout << "P\n";  //
     Point p = {1, 2};
     p.print();
     cout << "\n";
